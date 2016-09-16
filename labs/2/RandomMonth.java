@@ -11,13 +11,11 @@
  */
 import java.util.Scanner;
 
-
 public class RandomMonth {
   public static void main(String[] args) {
     // generates a random number 
     int number1 = (int)(Math.random() * 12);
 
-    // 
     if (number1 == 1)
       System.out.println("January");
     else if (number1 == 2)
