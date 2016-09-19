@@ -1,4 +1,6 @@
+//missing header
 
+// class name could be more clever :)
 public class Java {
   public static void main(String[] args) {
     // displays java design on the console

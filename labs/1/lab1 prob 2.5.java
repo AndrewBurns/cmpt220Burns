@@ -1,6 +1,7 @@
-
+//missing header
+//using tabs
 import java.util.Scanner;
-
+// class name should be capitalized
 public class finance_app {
   public static void main(String[] args) {
     // create a scanner 

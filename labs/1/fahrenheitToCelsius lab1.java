@@ -1,6 +1,7 @@
-
+// missing header
+// you are using tabs!!
 import java.util.Scanner;
-
+// class name should be capitalized
 public class celsius2Fahrenheit {
   public static void main(String[] args) {
   	Scanner input = new Scanner(System.in);

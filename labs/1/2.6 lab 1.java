@@ -1,3 +1,6 @@
+// missing header
+
+// you are using tabs!!
 
 import java.util.Scanner;
 
@@ -14,7 +17,7 @@ public class sum_digits {
     int firstDigit = number % 10;
 		int remainingNumber = number / 10;
 		int secondDigit = remainingNumber % 10;
-			remainingNumber = remainingNumber / 10;
+			remainingNumber = remainingNumber / 10; //incorrectly indented
 		int thirdDigit = remainingNumber % 10;
 		int sum = firstDigit + secondDigit + thirdDigit;
 
