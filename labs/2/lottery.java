@@ -30,13 +30,16 @@ public class lottery {
     int answer = 0;
     
     //checks 
-    if (number1 == lotteryDigit1 || number1 == lotteryDigit2 || number1 == lotteryDigit3){
+    if (number1 == lotteryDigit1 || number1 == lotteryDigit2 || 
+        number1 == lotteryDigit3){
       answer = 3;
     }
-    else if (number2 == lotteryDigit1 || number2 == lotteryDigit2 || number2 == lotteryDigit3){
+    else if (number2 == lotteryDigit1 || number2 == lotteryDigit2 || 
+        number2 == lotteryDigit3){
       answer = 3;
     }
-    else if (number3 == lotteryDigit1 || number3 == lotteryDigit2 || number3 == lotteryDigit3){
+    else if (number3 == lotteryDigit1 || number3 == lotteryDigit2 || 
+        number3 == lotteryDigit3){
       answer = 3;
     }
     
@@ -64,7 +67,8 @@ public class lottery {
     }
     
     //Checks if all the numbers are the same in the exact order
-    if(number1 == lotteryDigit1 && number2 == lotteryDigit2 && number3 == lotteryDigit3){
+    if(number1 == lotteryDigit1 && number2 == lotteryDigit2 && 
+        number3 == lotteryDigit3){
       answer = 1;
     }
    

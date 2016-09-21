@@ -39,13 +39,15 @@ public class KeyPad {
     else if (letter.equals("m") || letter.equals("n") || letter.equals("o")) {
       System.out.println("6");    
     }    
-    else if (letter.equals("p") || letter.equals("q") || letter.equals("r") || letter.equals("s")) {
+    else if (letter.equals("p") || letter.equals("q") || letter.equals("r") || 
+        letter.equals("s")) {
       System.out.println("7");    
     }    
     else if (letter.equals("t") || letter.equals("u") || letter.equals("v")) {
       System.out.println("8");    
     }    
-    else if (letter.equals("W") || letter.equals("X") || letter.equals("Y") || letter.equals("z")) {
+    else if (letter.equals("W") || letter.equals("X") || letter.equals("Y") || 
+        letter.equals("z")) {
       System.out.println("9");    
     }  
     else
