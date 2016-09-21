@@ -57,15 +57,15 @@ public class lottery {
     }
     else if (number2 == lotteryDigit3){
       if (number3 == lotteryDigit1){
-    	  if (number1 == lotteryDigit3){	
-    	    answer = 2;
+        if (number1 == lotteryDigit3){	
+          answer = 2;
         }   
       } 
     }
     
     //Checks if all the numbers are the same in the exact order
     if(number1 == lotteryDigit1 && number2 == lotteryDigit2 && number3 == lotteryDigit3){
-    	answer = 1;
+      answer = 1;
     }
    
     switch(answer) {

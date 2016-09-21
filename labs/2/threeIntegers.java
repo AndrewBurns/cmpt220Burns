@@ -28,23 +28,23 @@ public class ThreeIntegers {
 
     // if number 3 is greater than number2 then swap number2 with number3  
     if (number2 < number3){
-     int temp = number2;
-     number2 = number3;
-     number3 = temp;
+      int temp = number2;
+      number2 = number3;
+      number3 = temp;
     }
 
     // if number 2 is greater than number1 then swap number1 with number2 
     if (number1 < number2){
-     int temp = number1;
-     number1 = number2;
-     number2 = temp;
+      int temp = number1;
+      number1 = number2;
+      number2 = temp;
     }
 
     // if number 3 is greater than number2 then swap number2 with number3  
     if (number2 < number3){
-     int temp = number2;
-     number2 = number3;
-     number3 = temp;
+      int temp = number2;
+      number2 = number3;
+      number3 = temp;
     }
 
  
