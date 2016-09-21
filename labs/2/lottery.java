@@ -36,7 +36,7 @@ public class lottery {
     else if (number2 == lotteryDigit1 || number2 == lotteryDigit2 || number2 == lotteryDigit3){
       answer = 3;
     }
-     else if (number3 == lotteryDigit1 || number3 == lotteryDigit2 || number3 == lotteryDigit3){
+    else if (number3 == lotteryDigit1 || number3 == lotteryDigit2 || number3 == lotteryDigit3){
       answer = 3;
     }
     
