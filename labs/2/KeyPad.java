@@ -19,9 +19,9 @@ public class KeyPad {
     System.out.println("enter a letter");
     String letter = input.nextLine();
 	 	 
-	  letter = letter.toLowerCase();
-	 	  
-	  if (letter.equals("a") || letter.equals("b") || letter.equals("c")) {
+    letter = letter.toLowerCase();
+    
+    if (letter.equals("a") || letter.equals("b") || letter.equals("c")) {
         
     System.out.println("2");
     }

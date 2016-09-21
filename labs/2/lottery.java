@@ -45,21 +45,21 @@ public class lottery {
       if(number2 == lotteryDigit3){
         if(number3 == lotteryDigit1){
     			answer = 2;
-    	  }
+        }
       }
     }
     else if(number1 == lotteryDigit3){
       if(number2 == lotteryDigit1){
-    	  if(number3 == lotteryDigit2){
+        if(number3 == lotteryDigit2){
           answer = 2;
-    		  }
-    	 }
+        }
+      }
     }
     else if (number2 == lotteryDigit3){
       if (number3 == lotteryDigit1){
     	  if (number1 == lotteryDigit3){	
     	    answer = 2;
-    	  }   
+        }   
       } 
     }
     
@@ -70,16 +70,16 @@ public class lottery {
    
     switch(answer) {
     case 1:
-    	System.out.println("You win $10,000");
-    	break;
+      System.out.println("You win $10,000");
+      break;
     case 2:
-    	System.out.println("You win $3,000");
-    	break;
+      System.out.println("You win $3,000");
+      break;
     case 3:
-    	System.out.println("You win $1,000");
-    	break;
+      System.out.println("You win $1,000");
+      break;
     default:
-    	System.out.println("You win no money");
+      System.out.println("You win no money");
     }
       
   }
