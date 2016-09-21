@@ -34,34 +34,34 @@ public class Grade {
         (projects * 0.2) + (homeworkLabs * 0.4));
 
     if (finalGrade >= 95){
-    	System.out.println("A");
+      System.out.println("A");
     }
     else if (finalGrade < 95 && finalGrade >= 90){
-    	System.out.println("A-");
+      System.out.println("A-");
     }
     else if (finalGrade < 90 && finalGrade >= 87){
-    	System.out.println("B+");
+      System.out.println("B+");
     }
     else if (finalGrade < 87 && finalGrade >= 83){
-    	System.out.println("B");
+      System.out.println("B");
     }
     else if (finalGrade < 83 && finalGrade >= 80){
-    	System.out.println("B-");
+      System.out.println("B-");
     }
     else if (finalGrade < 80 && finalGrade >= 77){
-    	System.out.println("C+");
+      System.out.println("C+");
     }
     else if (finalGrade < 77 && finalGrade >= 73){
-    	System.out.println("C");
+      System.out.println("C");
     }
     else if (finalGrade < 73 && finalGrade >= 70){
-    	System.out.println("C-");
+      System.out.println("C-");
     }
     else if (finalGrade < 70 && finalGrade >= 65){
-    	System.out.println("D");
+      System.out.println("D");
     }
     else if (finalGrade < 65 && finalGrade >= 0){
-    	System.out.println("F");
+      System.out.println("F");
     }
     
   }
