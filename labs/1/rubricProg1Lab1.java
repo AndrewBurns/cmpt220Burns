@@ -1,6 +1,9 @@
-
+// missing header
+// you are using tabs!
+// lines of code exceed 80 characters!
 import java.util.Scanner;
 
+// class name should start with capital letter
 public class grade_calc_program {
   public static void main(String[] args) {
     // create a scanner 

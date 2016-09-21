@@ -1,22 +1,22 @@
 /**
- * file: threeIntegers.java
+ * file: ThreeIntegers.java
  * author: Drew Burns
  * course: CMPT 220
  * assignment: Lab 2
  * due date: Spet 14, 2003
  * version: 1.3
  * 
- * This file contains the declaration of the threeIntegers abstract data     
+ * This file contains the declaration of the ThreeIntegers abstract data     
  * type.
  */
 import java.util.Scanner;
 
-public class threeIntegers {
+public class ThreeIntegers {
   public static void main(String[] args) {
-  	// create a scanner 
-  	Scanner input = new Scanner(System.in);
+    // create a scanner 
+    Scanner input = new Scanner(System.in);
 
-  	System.out.println("enter an integer value for number 1");
+    System.out.println("enter an integer value for number 1");
     int number1 = input.nextInt(); 
 
     System.out.println("enter an integer value for number 2");

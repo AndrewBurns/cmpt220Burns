@@ -13,13 +13,13 @@ import java.util.Scanner;
 
 public class ASCII {
   public static void main(String[] args) {
-	// create a scanner 
-	Scanner input = new Scanner(System.in); 
+    // create a scanner 
+    Scanner input = new Scanner(System.in); 
 	  	 
     System.out.println("enter an ASCII code between 0-127");
     int number = input.nextInt();
 	 	 
-	System.out.println((char) number);
+    System.out.println((char) number);
 	  	
   }
 }  

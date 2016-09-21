@@ -16,21 +16,20 @@ public class PlateNumber {
 
     String alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	  	
-	// generates a random numbers
-	int number1 = (int)(Math.random() * 10);
-	int number2 = (int)(Math.random() * 10);
-	int number3 = (int)(Math.random() * 10);
-	int number4 = (int)(Math.random() * 10);
-	    
-	int letter1 = (int)(Math.random() * 26);
-	int letter2 = (int)(Math.random() * 26);
-	int letter3 = (int)(Math.random() * 26);
-	    
-	System.out.print(alphabet.charAt(letter1));
-	System.out.print(alphabet.charAt(letter2));
-	System.out.print(alphabet.charAt(letter3));
-	    
+    // generates a random numbers
+    int number1 = (int)(Math.random() * 10);
+    int number2 = (int)(Math.random() * 10);
+    int number3 = (int)(Math.random() * 10);
+    int number4 = (int)(Math.random() * 10);
+        
+    int letter1 = (int)(Math.random() * 26);
+    int letter2 = (int)(Math.random() * 26);
+    int letter3 = (int)(Math.random() * 26);
+        
+    System.out.print(alphabet.charAt(letter1));
+    System.out.print(alphabet.charAt(letter2));
+    System.out.print(alphabet.charAt(letter3));
+        
     System.out.print(number1 + "" + number2 + "" + number3 + "" + number4);
   }
 }
-	    

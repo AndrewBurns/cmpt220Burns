@@ -14,9 +14,9 @@ import java.util.Scanner;
 public class Grade {
   public static void main(String[] args) {
     // create a scanner 
-  	Scanner input = new Scanner(System.in);
+    Scanner input = new Scanner(System.in);
 
-  	// retrieve section grades
+    // retrieve section grades
     System.out.println("enter a percentage (0 – 100%) for your midterm exam: ");
     double midterm = input.nextDouble();
     

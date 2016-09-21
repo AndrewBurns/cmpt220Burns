@@ -13,17 +13,17 @@ import java.util.Scanner;
 
 public class KeyPad {
   public static void main(String[] args) {
-	// create a scanner 
-	Scanner input = new Scanner(System.in); 
+    // create a scanner 
+    Scanner input = new Scanner(System.in); 
 	  	 
-	System.out.println("enter a letter");
-	String letter = input.nextLine();
+    System.out.println("enter a letter");
+    String letter = input.nextLine();
 	 	 
-	letter = letter.toLowerCase();
+	  letter = letter.toLowerCase();
 	 	  
-	if (letter.equals("a") || letter.equals("b") || letter.equals("c")) {
+	  if (letter.equals("a") || letter.equals("b") || letter.equals("c")) {
         
-      System.out.println("2");
+    System.out.println("2");
     }
 
     else if(letter.equals("d") || letter.equals("e") || letter.equals("f")) {

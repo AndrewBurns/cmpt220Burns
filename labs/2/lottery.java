@@ -13,14 +13,14 @@ import java.util.Scanner;
 
 public class lottery {
   public static void main(String[] args) {
-  	// create a scanner 
-  	Scanner input = new Scanner(System.in); 
+    // create a scanner 
+    Scanner input = new Scanner(System.in); 
     // generates the 3 random numbers in the lottery
     int number1 = (int)(Math.random() * 10);
-  	int number2 = (int)(Math.random() * 10);
-  	int number3 = (int)(Math.random() * 10);
-  	System.out.println("Three digit lottery"); 
-  	System.out.println("Enter digit one:");
+    int number2 = (int)(Math.random() * 10);
+    int number3 = (int)(Math.random() * 10);
+    System.out.println("Three digit lottery"); 
+    System.out.println("Enter digit one:");
     int lotteryDigit1 = input.nextInt();
     System.out.println("Enter digit two:");
     int lotteryDigit2 = input.nextInt();
@@ -45,22 +45,22 @@ public class lottery {
       if(number2 == lotteryDigit3){
         if(number3 == lotteryDigit1){
     			answer = 2;
-    	}
+    	  }
       }
     }
     else if(number1 == lotteryDigit3){
-    	    if(number2 == lotteryDigit1){
-    		  if(number3 == lotteryDigit2){
-    			 answer = 2;
+      if(number2 == lotteryDigit1){
+    	  if(number3 == lotteryDigit2){
+          answer = 2;
     		  }
-    	    }
+    	 }
     }
     else if (number2 == lotteryDigit3){
-    	    if (number3 == lotteryDigit1){
-    	      if (number1 == lotteryDigit3){	
-    	    	 answer = 2;
-    	      }   
-    	    } 
+      if (number3 == lotteryDigit1){
+    	  if (number1 == lotteryDigit3){	
+    	    answer = 2;
+    	  }   
+      } 
     }
     
     //Checks if all the numbers are the same in the exact order

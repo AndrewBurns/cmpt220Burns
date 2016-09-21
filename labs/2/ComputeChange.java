@@ -13,10 +13,10 @@ import java.util.Scanner;
 
 public class ComputeChange {
   public static void main(String[] args) {
-	// create a scanner 
-	Scanner input = new Scanner(System.in); 
+    // create a scanner 
+    Scanner input = new Scanner(System.in); 
 	  	 
-	System.out.println("enter an amount in double, for example 11.56: ");
+    System.out.println("enter an amount in double, for example 11.56: ");
     String amount = input.nextLine();
     
     //Double.toString(amount);
