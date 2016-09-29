@@ -36,6 +36,6 @@ public class Smallest {
         min = array[count];
       }
     }
-	  return min;
+    return min;
   }
 }
