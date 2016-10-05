@@ -12,7 +12,6 @@
 
 import java.util.Scanner;
 
-
 public class Vectors {
   public static void main(String[] args) {
 
@@ -21,52 +20,51 @@ public class Vectors {
     System.out.println("How long is your first vector?");
     int firstlength = input.nextInt();
 
-    int[] vFirst = new int[firstlength];
+    double[] vFirst = new double[firstlength];
 
     System.out.println("How long is your second vector?");
     int secondlength = input.nextInt();
 
-    int[] vSecond = new int[secondlength];
+    double[] vSecond = new double[secondlength];
 
     System.out.println("Enter " + firstlength + " numbers now.");
 
     for (int i = 0; i < vFirst.length; i++) {
-      vFirst[i] = input.nextInt();
+      vFirst[i] = input.nextDouble();
     }
 
     System.out.println("Enter " + secondlength + " numbers now.");
 
     for (int i = 0; i < vSecond.length; i++) {
-      vSecond[i] = input.nextInt();
+      vSecond[i] = input.nextDouble();
     }
-
-    int idx = 0;
-    int shift = 0;
 
     int resultLength = (vFirst.length + vSecond.length) - 1;
 
-    int cResult[] = new int[resultLength];
+    double cResult[] = convolve(vFirst, vSecond);
     for (int i = 0; i < resultLength; i++) {
-      cResult[i] = 0;
+      System.out.print(cResult[i] + " ");
     }
+  }
+                     // this method convolutes two vectors together
+  public static double[] convolve(double[] vFirst,double[] vSecond) {
+    // declaring two variables
+    int idx = 0;
+    int shift = 0;
+	 
+    int resultLength = (vFirst.length + vSecond.length) - 1;
 		
-
-
+    double[] cResult2 = new double[resultLength];
+		
     for (idx = 0; idx < resultLength; idx++) {
-      for (shift = 0; shift < vFirst.length; shift++) {
-        if ((idx - shift) < 0 || (idx-shift) > vFirst.length - 1 ) {
-          cResult[idx] += 0;
-        } 
-        else {
-          cResult[idx] += vFirst[idx-shift] * vSecond[shift];
+      cResult2[idx] = 0;
+      for (shift = 0; shift < vSecond.length; shift++) {
+        if ((idx - shift >= 0) && (idx - shift < vFirst.length)) {
+          cResult2[idx] += vFirst[idx - shift] * vSecond[shift];
         }
       }	
     }
-    System.out.print(cResult[0]);
-    System.out.print(cResult[1]);
-    System.out.print(cResult[2]);
-    System.out.print(cResult[3]);
-    System.out.print(cResult[4]);
-
+    return cResult2;
+		
   }
 }
