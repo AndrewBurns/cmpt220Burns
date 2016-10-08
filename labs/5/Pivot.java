@@ -37,8 +37,8 @@ public class Pivot{
 
  
   public static int partition(int[] list) {
-  	int start = 0;
-  	int last = list.length - 1;
+    int start = 0;
+    int last = list.length - 1;
     int pivot = list[start]; 
     int lowCount = start + 1; 
     int highCount = last; 
