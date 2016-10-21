@@ -1,0 +1,36 @@
+8 pts
+
+Andrew, 
+
+About your programs...
+
+Functionality
+
+- The output does not follow instructions given by program. 
+
+- Problem 3.11 is wrong. If I enter month 2 and year 2012, your program tells me that it
+  has 28 days, which is incorrect! Also, case statements need to be indented two
+  spaces to the right.  -1pt
+
+- Problem 4.15 is wrong. Why are you comparing lower case letter to upper case? (see line
+  49).  -1pt
+
+Please make sure you read the problems well; follow instructions.
+
+
+Style Check
+
+- There is incorrect indentation. 
+
+- Incorrect positioning of opening braces (see else statement)
+
+- Some class names do not start with capital letter. They must.
+
+
+Please make sure you follow the style guidelines. Penalties will be higher as
+the semester moves forward.
+
+
+Peace,
+
+- Dr. Rivas

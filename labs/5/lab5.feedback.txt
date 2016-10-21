@@ -1,0 +1,24 @@
+8 pts
+
+Andrew,
+
+About your programs...
+
+Functionality
+
+- Could not test functionality of everything because a program cannot be
+  compiled.  -1pt
+
+Please make sure you read the problems well; follow instructions.
+
+
+Style Check
+
+- There is incorrect indentation. (See Selection line 50-51)  -1pt
+
+Please make sure you follow the style guidelines and that your programs can be
+compiled using javac. Penalties will be higher as the semester moves forward.
+
+Peace,
+
+- Dr. Rivas
