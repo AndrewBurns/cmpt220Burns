@@ -16,14 +16,14 @@ import java.util.Scanner;
 
 public class Location{
   //main method
-	public int row = 0;
-	public int column = 0;
-	public double maxValues = 0;
+  public int row = 0;
+  public int column = 0;
+  public double maxValues = 0;
     public static void main (String[] args) {
   
-	  System.out.print("Enter the number of rows and columns in the array: ");
+    System.out.print("Enter the number of rows and columns in the array: ");
       Scanner input = new Scanner(System.in);
-	  int row = input.nextInt();
+      int row = input.nextInt();
       int column = input.nextInt();
       System.out.println("Enter numbers into the array: ");
       double[][] matrix = new double[row][column];
