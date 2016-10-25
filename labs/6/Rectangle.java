@@ -13,8 +13,8 @@
 import java.util.Scanner;
 
 public class Rectangle {
-	// main method
-	// create 2 double fields height and weight default 1
+  // main method
+  // create 2 double fields height and weight default 1
 
 	double length = 1;
 	double width = 1;
