@@ -40,25 +40,22 @@ public class Location{
          		+ newLoc.maxValues + " at " + ( (newLoc.row + "," +  newLoc.column)));
     }
   public static Location locateLargest(double[][] a){
-	  int[] largest = {0, 0};
+    int[] largest = {0, 0};
 	  
-	  Location largestLoc = new Location();
+    Location largestLoc = new Location();
 	  
       largestLoc.maxValues = a[0][0];
 
       // what comes after my for statements
-      for (int row1 = 0; row1 < a.length; row1++)
-      {
-          for (int col = 0; col < a[row1].length; col++)
-          {
-              if (largestLoc.maxValues < a[row1][col])
-              {
-                  largestLoc.maxValues = a[row1][col];
-                  largestLoc.row = row1;
-                  largestLoc.column = col;
-              }
+      for (int row1 = 0; row1 < a.length; row1++) {
+        for (int col = 0; col < a[row1].length; col++) {
+          if (largestLoc.maxValues < a[row1][col]) {
+            largestLoc.maxValues = a[row1][col];
+            largestLoc.row = row1;
+            largestLoc.column = col;
           }
+        }
       }
-      return largestLoc;
-    }  
-  }
+    return largestLoc;
+  }  
+}
