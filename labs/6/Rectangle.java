@@ -35,18 +35,18 @@ public class Rectangle {
 
     // a constructor that creates a rect with the specified width and height
     Rectangle(int width, int length) {
-        // Get user input
+    // Get user input
     this.length = length;
     this.width = width;
     }
 
     // method that returns the area of rec
     double getArea() {
-        return this.length * this.width;
+      return this.length * this.width;
     }
 
     // method that returns the perimeter
     double getPerimeter() {
-        return (2 * (this.length * this.width));
+      return (2 * (this.length * this.width));
     }
 }
