@@ -26,7 +26,7 @@ public class Rectangle {
         + Rectangle1.length + " is " + Rectangle1.getArea());
     System.out.println("the perimeter of the rectangle of width " + Rectangle1.width + " and length of "
         + Rectangle1.length + " is " + Rectangle1.getPerimeter());
-    }
+  }
 
     // no args constuctor that creates a default rectangle
     Rectangle() {
@@ -35,9 +35,9 @@ public class Rectangle {
 
     // a constructor that creates a rect with the specified width and height
     Rectangle(int width, int length) {
-    // Get user input
-    this.length = length;
-    this.width = width;
+      // Get user input
+      this.length = length;
+      this.width = width;
     }
 
     // method that returns the area of rec

@@ -30,9 +30,9 @@ public class Location{
     double[][] matrix = new double[row][column];
       
     for( row = 0; row < matrix.length; row++) {
-   	  for( column = 0; column < matrix[row].length; column++) {
-   		  matrix[row][column] = input.nextDouble();
-   	  }
+      for( column = 0; column < matrix[row].length; column++) {
+        matrix[row][column] = input.nextDouble();
+      }
     }
 	  
     Location newLoc = locateLargest(matrix);
