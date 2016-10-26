@@ -28,25 +28,25 @@ public class Rectangle {
         + Rectangle1.length + " is " + Rectangle1.getPerimeter());
   }
 
-    // no args constuctor that creates a default rectangle
-    Rectangle() {
+  // no args constuctor that creates a default rectangle
+  Rectangle() {
 
-    }
+  }
 
-    // a constructor that creates a rect with the specified width and height
-    Rectangle(int width, int length) {
-      // Get user input
-      this.length = length;
-      this.width = width;
-    }
+  // a constructor that creates a rect with the specified width and height
+  Rectangle(int width, int length) {
+    // Get user input
+    this.length = length;
+    this.width = width;
+  }
 
-    // method that returns the area of rec
-    double getArea() {
-      return this.length * this.width;
-    }
+  // method that returns the area of rec
+  double getArea() {
+    return this.length * this.width;
+  }
 
-    // method that returns the perimeter
-    double getPerimeter() {
-      return (2 * (this.length * this.width));
-    }
+  // method that returns the perimeter
+  double getPerimeter() {
+    return (2 * (this.length * this.width));
+  }
 }
