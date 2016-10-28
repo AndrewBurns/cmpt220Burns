@@ -12,16 +12,16 @@
 
   public class BMI {
     public static void main(String[] args) {
-    BMI bmi1 = new BMI("Sami Elougani", 19, 150, 5, 11);
-    System.out.println("The BMI for " + bmi1.getName() + " is "
-        + bmi1.getBMI() + " " + bmi1.getStatus());
+      BMI bmi1 = new BMI("Sami Elougani", 19, 150, 5, 11);
+      System.out.println("The BMI for " + bmi1.getName() + " is "
+          + bmi1.getBMI() + " " + bmi1.getStatus());
     }
-    private String name;
-    private int age;
-    private double weight; // in pounds
-    private double height; // in inches
-    public final double KILOGRAMS_PER_POUND = 0.45359237; 
-    public final double METERS_PER_INCH = 0.0254;  
+      private String name;
+      private int age;
+      private double weight; // in pounds
+      private double height; // in inches
+      public final double KILOGRAMS_PER_POUND = 0.45359237; 
+      public final double METERS_PER_INCH = 0.0254;  
       
      
     public BMI(String name, int age, double weight, double feet, double inches) {

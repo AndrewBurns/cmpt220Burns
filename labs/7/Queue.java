@@ -23,7 +23,7 @@ public class Queue {
     // dequeue until empty
     while (!queue.isEmpty())
       System.out.print(queue.dequeue() + " ");
-    }
+  }
  
     private int[] elements;
     private int size;
