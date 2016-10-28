@@ -15,7 +15,7 @@ public class celsius {
     System.out.format("   Celcius  Farenheit |  Farenheit    Celsius\n");
     for (double cel=40.0, far=120; cel>30.0; cel-=1, far-=10) {
       System.out.format("%10.1f %10.1f | %10.1f %10.1f \n", 
-            cel, Cel2Far(cel), far, Far2Cel(far));
+             cel, Cel2Far(cel), far, Far2Cel(far));
     }
   }
   public static double Cel2Far(double cel) {
