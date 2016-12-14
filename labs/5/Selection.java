@@ -47,8 +47,8 @@ public class Selection {
 
       // swap list [i] with list[currentMaxIndex] if necessary
       if( currentMaxIndex != i) {
-      List[currentMaxIndex] = List[i];
-      List[i] = currentMax;
+        List[currentMaxIndex] = List[i];
+        List[i] = currentMax;
       }
     }
     return List;

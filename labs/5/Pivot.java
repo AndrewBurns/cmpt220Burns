@@ -14,7 +14,7 @@
 import java.util.Scanner;
 
 
-public class Pivot{
+public class Pivot {
   public static void main (String[] args) {
 
     // Enter values for list1
